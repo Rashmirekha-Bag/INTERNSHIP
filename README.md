@@ -1,8 +1,8 @@
 # INTERNSHIP
 
-Task 1: 
+Task 1: File Handling Utility
 
-Task 2: 
+Task 2: REST API Client
 
 Task 3: Multithreaded Chat Application
 
