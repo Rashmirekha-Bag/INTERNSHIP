@@ -1,0 +1,21 @@
+ProductID,ProductName,Category,Price
+1,iPhone 15 Pro,Electronics,999.99
+2,MacBook Air M2,Electronics,1199.99
+3,AirPods Pro,Electronics,249.99
+4,Samsung Galaxy S24,Electronics,899.99
+5,Sony WH-1000XM5,Electronics,399.99
+6,iPad Pro,Electronics,799.99
+7,Nintendo Switch,Gaming,299.99
+8,PlayStation 5,Gaming,499.99
+9,Xbox Series X,Gaming,499.99
+10,Steam Deck,Gaming,399.99
+11,The Great Gatsby,Books,12.99
+12,To Kill a Mockingbird,Books,14.99
+13,1984,Books,13.99
+14,Pride and Prejudice,Books,11.99
+15,The Catcher in the Rye,Books,15.99
+16,Nike Air Max,Fashion,129.99
+17,Adidas Ultraboost,Fashion,159.99
+18,Levi's 501 Jeans,Fashion,89.99
+19,Ray-Ban Aviators,Fashion,199.99
+20,Apple Watch Series 9,Electronics,399.99

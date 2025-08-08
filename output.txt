@@ -1,0 +1,2 @@
+This is new content written to output file.
+This line was appended to the file.

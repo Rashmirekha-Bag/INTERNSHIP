@@ -5,7 +5,10 @@ import java.time.Duration;
 import java.util.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-
+/*
+ * No external JSON library is used; parsing is done manually.
+ * This section is intentionally left empty.
+ */
 /**
  * REST API Client - CODTECH Internship Task 2
  * 

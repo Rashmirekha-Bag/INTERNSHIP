@@ -324,9 +324,9 @@ public class FileHandlingUtility {
         try (DirectoryStream<Path> stream = Files.newDirectoryStream(Paths.get("."))) {
             for (Path file : stream) {
                 if (Files.isRegularFile(file)) {
-                    System.out.println("📄 " + file.getFileName() + " (" + Files.size(file) + " bytes)");
+                    System.out.println("[FILE] " + file.getFileName() + " (" + Files.size(file) + " bytes)");
                 } else if (Files.isDirectory(file)) {
-                    System.out.println("📁 " + file.getFileName() + "/");
+                    System.out.println("[DIR] " + file.getFileName() + "/");
                 }
             }
         }

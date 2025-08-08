@@ -1,0 +1,5 @@
+Welcome to CODTECH File Handling Utility!
+This is line 2 of the sample file.
+Line 3 contains some sample data: 12345
+This file will be used for demonstration purposes.
+Created on: 2025-08-08 12:16:52

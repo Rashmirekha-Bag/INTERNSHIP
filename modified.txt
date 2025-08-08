@@ -1,0 +1,6 @@
+Welcome to CODTECH File Handling Utility!
+This is line 2 of the MODIFIED file.
+Line 3 contains some MODIFIED data: 12345
+This file will be used for demonstration purposes.
+Created on: 2025-08-08 12:16:52
+--- File modified on: 2025-08-08 12:16:52 ---

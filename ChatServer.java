@@ -247,15 +247,17 @@ class ClientHandler implements Runnable {
     }
 }
 
+/*
+ * The ChatClient class must be moved to a separate file named ChatClient.java.
+ * Copy the ChatClient code below into ChatClient.java:
+ */
+
 // ========== ChatClient.java ==========
+/*
 import java.io.*;
 import java.net.*;
 import java.util.Scanner;
 
-/**
- * Chat Client
- * Connects to the chat server and handles user input/output
- */
 public class ChatClient {
     private static final String SERVER_HOST = "localhost";
     private static final int SERVER_PORT = 12345;
@@ -271,7 +273,6 @@ public class ChatClient {
     
     public void start() {
         try {
-            // Connect to server
             System.out.println("🔗 Connecting to chat server...");
             socket = new Socket(SERVER_HOST, SERVER_PORT);
             
@@ -280,12 +281,10 @@ public class ChatClient {
             
             System.out.println("✅ Connected to server!");
             
-            // Start thread to listen for server messages
             Thread messageListener = new Thread(this::listenForMessages);
             messageListener.setDaemon(true);
             messageListener.start();
             
-            // Handle user input
             handleUserInput();
             
         } catch (IOException e) {
@@ -295,7 +294,6 @@ public class ChatClient {
         }
     }
     
-    // Listen for messages from server
     private void listenForMessages() {
         try {
             String message;
@@ -307,7 +305,6 @@ public class ChatClient {
         }
     }
     
-    // Handle user input and send to server
     private void handleUserInput() {
         System.out.println("💬 You can now start chatting! Type /help for commands.");
         
@@ -324,7 +321,6 @@ public class ChatClient {
         }
     }
     
-    // Cleanup resources
     private void cleanup() {
         try {
             System.out.println("👋 Disconnecting from server...");
@@ -343,18 +339,23 @@ public class ChatClient {
         client.start();
     }
 }
+*/
 
 // ========== How to Run the Application ==========
 /*
 COMPILATION AND EXECUTION INSTRUCTIONS:
 
-1. Compile all Java files:
+1. Split the classes into separate files:
+   - ChatServer.java (contains ChatServer and ClientHandler)
+   - ChatClient.java (contains ChatClient)
+
+2. Compile all Java files:
    javac *.java
 
-2. Start the Server (in one terminal):
+3. Start the Server (in one terminal):
    java ChatServer
 
-3. Start Multiple Clients (in separate terminals):
+4. Start Multiple Clients (in separate terminals):
    java ChatClient
 
 FEATURES IMPLEMENTED:
